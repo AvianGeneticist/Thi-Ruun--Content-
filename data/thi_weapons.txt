@@ -1,0 +1,171 @@
+outfit "Pollo-Guli Missile"
+	category "Ammunition"
+	cost 65
+	thumbnail "outfit/javelin"
+	"mass" .02
+	"pollo-guli capacity" -1
+	description "Pollo-Guli missiles are cheap, reliably, long-ranged missiles developed millenia ago by the Thi-Ruun.."
+
+outfit "Pollo-Guli Belt"
+	category "Ammunition"
+	cost 8200
+	thumbnail "outfit/javelin storage"
+	"mass" 1
+	"outfit space" -6
+	"pollo-guli capacity" 250
+	ammo "Pollo-Guli Missile"
+	description "Though the Pollo-Guli missile system is already good at carrying large stores of ammo, many Thi-Ruun ships carry these storage belts to ensure a continuous supply of missiles."
+
+outfit "Pollo-Guli Battery"
+	category "Secondary Weapons"
+	cost 115000
+	thumbnail "outfit/javelin pod"
+	"mass" 5
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	"pollo-guli capacity" 500
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "Pollo-Guli Missile"
+		icon "icon/javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 2.2
+		"velocity" 13
+		"lifetime" 66
+		"reload" 14
+		"burst reload" 4
+		"burst count" 3
+		"firing energy" .2
+		"firing heat" 8
+		"shield damage" 52
+		"hull damage" 68
+		"firing force" 15
+		"hit force" 30
+		"missile strength" 3
+	description "This simple missile system has been in service with the Thi-Ruun for aeons as their standard-issue civilian missile launcher. Though nowadays more advanced variants exist, the reliability of this weapon system has proven a deciding factor in its continued service, even after tens of thousands of years without so much as a cosmetic alteration."
+
+outfit "Pollo-Guli Platform"
+	category "Secondary Weapons"
+	cost 395000
+	thumbnail "outfit/javelin pod"
+	"mass" 18
+	"outfit space" -38
+	"weapon capacity" -38
+	"turret mounts" -1
+	"pollo-guli capacity" 1000
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "Pollo-Guli Missile"
+		icon "icon/javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 3.3
+		"turret turn" 2.3
+		"velocity" 13
+		"lifetime" 66
+		"reload" 7
+		"burst reload" 2
+		"burst count" 6
+		"firing energy" .2
+		"firing heat" 8
+		"shield damage" 52
+		"hull damage" 68
+		"firing force" 15
+		"hit force" 30
+		"missile strength" 3
+	description "This bulky installation is designed to fire large salvos of unguided Pollo-Guli missiles at distant attackers. Though the turret turns somewhat slowly due to the bulk needed to launch salvos of missiles so rapidly, it cannot match the stabilizing power of a ship's entire mass, thus reducing the platform's accuracy."
+	
+outfit "Alkro-Jaqu Missile"
+	category "Ammunition"
+	cost 125
+	thumbnail "outfit/javelin"
+	"mass" .1
+	"aklro-jaqu capacity" -1
+	description "Alkro-Jaqu Missiles are a long-ranged homing weapon developed by the Thi-Ruun."
+
+outfit "Alkro-Jaqu Magazine"
+	category "Ammunition"
+	cost 3500
+	thumbnail "outfit/javelin storage"
+	"mass" 1
+	"outfit space" -4
+	"aklro-jaqu capacity" 30
+	ammo "Alkro-Jaqu Missile"
+	description "This lightweight, compact magazine stores extra Alkro-Jaqu."
+	
+outfit "Alkro-Jaqu Pod"
+	category "Secondary Weapons"
+	cost 395000
+	thumbnail "outfit/javelin pod"
+	"mass" 10
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	"aklro-jaqu capacity" 120
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "javelin"
+		ammo "Alkro-Jaqu Missile"
+		icon "icon/javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 4
+		"velocity" 12.6
+		"lifetime" 200
+		"reload" 20
+		"firing energy" 1.4
+		"firing heat" 28
+		"homing" 3
+		"radar tracking" .65
+		"optical tracking" .2
+		"turn" 2
+		"acceleration" 3.15
+		"drag" .25
+		"shield damage" 128
+		"discharge damage" 8
+		"hull damage" 68
+		"firing force" 15
+		"hit force" 30
+		"missile strength" 9
+	description "This fixed gun system was actually developed after the turreted version of the Alkro-Jaqu launcher. It sports the same lethality as its turreted variant, but with reduced ammunition capacity built in, allowing it to squeeze into smaller ships."
+	
+outfit "Alkro-Jaqu Turret"
+	category "Secondary Weapons"
+	cost 395000
+	thumbnail "outfit/javelin pod"
+	"mass" 16
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"aklro-jaqu capacity" 240
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "javelin"
+		ammo "Alkro-Jaqu Missile"
+		icon "icon/javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 6
+		"turret turn" 1.4
+		"velocity" 12.6
+		"lifetime" 200
+		"reload" 20
+		"firing energy" 1.4
+		"firing heat" 28
+		"homing" 3
+		"radar tracking" .65
+		"optical tracking" .2
+		"turn" 2
+		"acceleration" 3.15
+		"drag" .25
+		"shield damage" 128
+		"discharge damage" 8
+		"hull damage" 68
+		"firing force" 15
+		"hit force" 30
+		"missile strength" 9
+	description "Alkro-Jaqu missiles were designed to reliably disable a target's shields over long range, allowing shorter-ranged craft to finish the job. In addition to their primary damage, they cause additional discharge over time, causing incredible suppressive power to build as more missiles hit their target."

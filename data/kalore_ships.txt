@@ -1,0 +1,144 @@
+ship "Tuell-Kalore"
+	sprite "ship/tuell-kalore"
+	thumbnail "ship/tuell-kalore"
+	attributes
+		category "Heavy Freighter"
+		"cost" 13800000
+		"shields" 14100
+		"hull" 8250
+		"required crew" 38
+		"bunks" 60
+		"mass" 495
+		"drag" 9.8
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 570
+		"outfit space" 430
+		"weapon capacity" 275
+		"engine capacity" 85
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"Pollo-Guli Platform" 4
+		"Pollo-Guli Missile" 1000
+		"Paragraph Countermissile System" 4
+		"Pencil Rocket" 1400
+		
+		"Twin Kindrender Rack"
+		"Kindrender Missile" 2
+		"Reservoir Storage Block"
+		"Reservoir EMP" 4
+		"Shield Reconstructor (Fuse)"
+		
+		"Artillery Compound Thruster"
+		"Emplacement Compound Steering"
+		"Hyperdrive"
+		
+	engine -50.5 63.5
+	engine 50.5 63.5
+	engine -35.5 82
+	engine 35.5 82
+	engine -14 108
+	engine 14 108
+	turret -28 28.5 "Paragraph Countermissile System"
+	turret 28 28.5 "Paragraph Countermissile System"
+	turret -25.5 19.5 "Pollo-Guli Platform"
+	turret 25.5 19.5 "Pollo-Guli Platform"
+	turret -21.5 7
+	turret 21.5 7
+	turret -16 -11.5 "Pollo-Guli Platform"
+	turret 16 -11.5 "Pollo-Guli Platform"
+	turret -9 -27 "Paragraph Countermissile System"
+	turret 9 -27 "Paragraph Countermissile System"
+	turret -17 62.5
+	turret 17 62.5
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Kalore-Illoca is the premiere producer of freighters in Thi-Ruun space, operating mostly in the western regions. They specialize in industrial-scale, durable freighters for usage in large mining or construction operations, but see considerable usage in standard commerce as well. The Tuell-Kalore is their most popular ship, combining considerable durability and cargo space in a relatively affordable package."
+	
+ship "Sakaar-Malue-Kalore"
+	sprite "ship/sakaar-malue-kalore"
+	thumbnail "thumbnail/sakaar-malue-kalore"
+	attributes
+		category "Heavy Freighter"
+		"cost" 29250000
+		"shields" 27500
+		"hull" 25000
+		"required crew" 99
+		"bunks" 180
+		"mass" 1405
+		"drag" 16.8
+		"heat dissipation" .3
+		"fuel capacity" 900
+		"cargo space" 1020
+		"outfit space" 880
+		"weapon capacity" 420
+		"engine capacity" 205
+		weapon
+			"blast radius" 435
+			"shield damage" 6400
+			"hull damage" 3500
+			"hit force" 4500
+	outfits
+		"Pollo-Guli Platform" 2
+		"Pollo-Guli Missile" 2000
+		"Alkro-Jaqu Turret" 2
+		"Alkro-Jaqu Magazine" 4
+		"Alkro-Jaqu Missile" 360
+		"Essay Countermissile System" 4
+		"Pencil Rocket" 3000
+		
+		"Quad Kindrender Rack"
+		"Twin Kindrender Rack"
+		"Kindrender Missile" 6
+		"Reservoir Storage Block"
+		"Reservoir EMP" 4
+		"Raila Rocket Rack" 5
+		"Raila Rocket" 50
+		"Shield Reconstructor (Fuse)"
+		"Shield Reconstructor (Primer)"
+		
+		"Silo Compound Thruster"
+		"Intercontinental Compound Steering"
+		"Hyperdrive"
+		
+	engine -76 149
+	engine 76 149
+	engine -57.5 164.5
+		zoom 0.25
+	engine 57.5 164.5
+		zoom 0.25
+	turret 47 -134 "Pollo-Guli Platform"
+	turret -47 -134 "Pollo-Guli Platform"
+	turret 45.5 -14 "Essay Countermissile System"
+	turret -45.5 -14 "Essay Countermissile System"
+	turret 61.5 122 "Alkro-Jaqu Turret"
+	turret -61.5 122 "Alkro-Jaqu Turret"
+	turret 34 121.5 "Essay Countermissile System"
+	turret -34 121.5 "Essay Countermissile System"
+	bay "Fighter" -41.5 -152
+	bay "Fighter" 41.5 -152
+	bay "Fighter" -46 -32.5
+	bay "Fighter" 46 -32.5
+	bay "Fighter" -67.5 104
+	bay "Fighter" 67.5 104
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Though the majority of their produced ships are the Tuell-Kalore, the Sakaar-Malue-Kalore is Kalore-Illoca's self-proclaimed best design. A massive battlefreighter, capable of serving both commercial and combative roles; despite its purpose as a mining carrier or large-scale cargo ship, its weapon and fighter capacity rivals humanity's greatest warships."
+	description "Notably, this is one of the newest-adopted ship models in Thi-Ruun space, dating back roughly 380 thousand years; though, of course, the design has been honed and improved since then."
+	

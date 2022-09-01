@@ -1,0 +1,75 @@
+ship "Yurlia-4"
+	sprite "ship/yurlia 4"
+	thumbnail "ship/yurlia 4"
+	attributes
+		category "Utility"
+		"cost" 2500000
+		"shields" 22500
+		"hull" 15000
+		"required crew" 20
+		"bunks" 80
+		"mass" 410
+		"drag" 10.5
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 60
+		"outfit space" 495
+		"weapon capacity" 85
+		"engine capacity" 135
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Alkro-Jaqu Pod" 2
+		"Alkro-Jaqu Magazine" 8
+		"Alkro-Jaqu Missile" 480
+		"Essay Countermissile System" 1
+		"Pencil Rocket" 750
+		
+		"Quad Kindrender Rack"
+		"Kindrender Missile" 4
+		"Reservoir Storage Block"
+		"Reservoir EMP" 4
+		"Shield Reconstructor (Primer)"
+		"Raila Rocket Rack"
+		"Raila Rocket" 10
+		
+		"Emplacement Compound Thruster"
+		"Silo Compound Steering"
+		"Hyperdrive"
+		
+	"steering engine" -47 133
+		angle 67.5
+		"left"
+	"steering engine" 47 133
+		angle -67.5
+		"right"
+	"steering engine" -38.5 154.5
+		angle 45
+		"left"
+	"steering engine" 38.5 154.5
+		angle -45
+		"right"
+	engine -21.5 169.5
+		angle 22.5
+	engine 21.5 169.5
+		angle -22.5
+	engine 1 175.5
+	gun -17 -191
+	gun 17 -191
+	turret 0 122.5
+	bay "Fighter" -69 -48 under left
+	bay "Fighter" 69 -48 under right
+	bay "Fighter" -69 28.5 under left
+	bay "Fighter" 69 28.5 under right
+	leak "leak" 60 50
+	leak "flame" 40 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 20
+	explode "small explosion" 35
+	explode "medium explosion" 20
+	explode "large explosion" 5
+	"final explode" "final explosion medium"
+	description `Southbound Shipyards quickly answered the Free Worlds' call for a carrier by building modified cargo containers for Haulers - adding a pair of Fighter docking arms, some additional outfit space, and even a couple of bunks. Access to the fighters from within the ship is so inconvenient that most pilots opt to just stay aboard their fighters when in flight. While the technical name for this ship is "Hauler I: Type F", Southbound assembly workers started calling the single container variant the "Nest" due to its complement of Finch Fighters, and the name stuck.`
