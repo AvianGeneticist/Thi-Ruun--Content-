@@ -169,3 +169,72 @@ outfit "Alkro-Jaqu Turret"
 		"hit force" 30
 		"missile strength" 9
 	description "Alkro-Jaqu missiles were designed to reliably disable a target's shields over long range, allowing shorter-ranged craft to finish the job. In addition to their primary damage, they cause additional discharge over time, causing incredible suppressive power to build as more missiles hit their target."
+
+outfit "Yaktha Round"
+	category "Ammunition"
+	cost 35
+	thumbnail "outfit/javelin"
+	"mass" .01
+	"yaktha capacity" -1
+	description "Very small missiles used in the defense of Kiel-Ruun vessels. Their low cost and mass is somewhat offset by the fact that they are deployed (and thus consumed) in great numbers."
+
+outfit "Yaktha Drum"
+	category "Ammunition"
+	cost 1850
+	thumbnail "outfit/javelin storage"
+	"mass" 1.16
+	"outfit space" -5
+	"yaktha capacity" 384
+	ammo "Yaktha Round"
+	description "An easily handlable drum for storing sixteen volleys of Yaktha Rounds."
+	
+outfit "Yaktha Deployment Hatch"
+	category "Secondary Weapons"
+	cost 620000
+	thumbnail "outfit/javelin pod"
+	"mass" 25.2
+	"outfit space" -42
+	"weapon capacity" -42
+	"turret mounts" -1
+	"yaktha capacity" 1680
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "javelin"
+		ammo "Yaktha Round"
+		icon "icon/javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 0
+		"turret turn" 6
+		"submunition" "Yaktha Swarmer" 24
+		"velocity" 8
+		"lifetime" 1
+		"reload" 40
+		"burst reload" 5
+		"burst count" 3
+		"firing energy" 1.4
+		"firing heat" 28
+		"homing" 2
+		"radar tracking" .2
+		"turn" 3
+		"acceleration" 8
+		"drag" 1
+	description "Yaktha Missiles are a Kiel-Ruun ship's only standard shipboard defense. Fired in great numbers as a swarm of projectiles, they are too small to be locked on by anti-missile systems, and thus it is best to put less valuable ships between them and a more valuable target."
+
+outfit "Yaktha Swarmer"
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 360
+		"lifetime" 149
+		"homing" 2
+		"radar tracking" .2
+		"turn" 3
+		"acceleration" 8
+		"drag" 1
+		"shield damage" 41
+		"hull damage" 52

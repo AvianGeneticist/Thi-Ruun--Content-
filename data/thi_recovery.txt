@@ -13,10 +13,10 @@ outfit "Shield Reconstructor (Fuse)"
 	description "The Thi'Ruun have had millenia to strengthen and diversify their shield technology, but the Reconstructor has been the backbone of their defensive ability for many of those aeons passed. Reconstructors recharge shields somewhat slowly, but rebuild the ship's shield in such a way that makes it more difficult to damage or pierce."
 
 outfit "Shield Reconstructor (Primer)"
-	plural "Shield Reconstructors (Fuse)"
+	plural "Shield Reconstructors (Primer)"
 	category "Systems"
-	cost 518000
-	thumbnail "outfit/small shield"
+	cost 1678000
+	thumbnail "outfit/medium shield"
 	"mass" 63
 	"outfit space" -63
 	"shield generation" 1.62
@@ -24,6 +24,20 @@ outfit "Shield Reconstructor (Primer)"
 	"shield energy multiplier" 0.45
 	"shield protection" 0.16
 	"piercing protection" 0.12
+	description "Larger reconstructors focus more on providing better shield regeneration, but also increase the efficiency at which the improved shields are constructed."
+
+outfit "Shield Reconstructor (Charge)"
+	plural "Shield Reconstructors (Charge)"
+	category "Systems"
+	cost 4992500
+	thumbnail "outfit/large shield"
+	"mass" 178
+	"outfit space" -178
+	"shield generation" 4.86
+	"shield energy" 5.67
+	"shield energy multiplier" 1.35
+	"shield protection" 0.49
+	"piercing protection" 0.36
 	description "The Thi'Ruun have had millenia to strengthen and diversify their shield technology, but the Reconstructor has been the backbone of their defensive ability for many of those aeons passed. Reconstructors recharge shields somewhat slowly, but rebuild the ship's shield in such a way that makes it more difficult to damage or pierce."
 
 

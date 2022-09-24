@@ -73,15 +73,15 @@ ship "Sakaar-Malue-Kalore"
 		"cost" 29250000
 		"shields" 27500
 		"hull" 25000
-		"required crew" 99
-		"bunks" 180
-		"mass" 1405
+		"required crew" 139
+		"bunks" 220
+		"mass" 1705
 		"drag" 16.8
 		"heat dissipation" .3
 		"fuel capacity" 900
 		"cargo space" 1020
-		"outfit space" 880
-		"weapon capacity" 420
+		"outfit space" 980
+		"weapon capacity" 520
 		"engine capacity" 205
 		weapon
 			"blast radius" 435
@@ -90,12 +90,13 @@ ship "Sakaar-Malue-Kalore"
 			"hit force" 4500
 	outfits
 		"Pollo-Guli Platform" 2
-		"Pollo-Guli Missile" 2000
-		"Alkro-Jaqu Turret" 2
+		"Pollo-Guli Missile" 4000
+		"Alkro-Jaqu Turret" 4
 		"Alkro-Jaqu Magazine" 4
-		"Alkro-Jaqu Missile" 360
+		"Alkro-Jaqu Missile" 600
+		"Paragraph Countermissile System" 2
 		"Essay Countermissile System" 4
-		"Pencil Rocket" 3000
+		"Pencil Rocket" 3700
 		
 		"Quad Kindrender Rack"
 		"Twin Kindrender Rack"
@@ -117,20 +118,26 @@ ship "Sakaar-Malue-Kalore"
 		zoom 0.25
 	engine 57.5 164.5
 		zoom 0.25
-	turret 47 -134 "Pollo-Guli Platform"
-	turret -47 -134 "Pollo-Guli Platform"
-	turret 45.5 -14 "Essay Countermissile System"
-	turret -45.5 -14 "Essay Countermissile System"
-	turret 61.5 122 "Alkro-Jaqu Turret"
-	turret -61.5 122 "Alkro-Jaqu Turret"
-	turret 34 121.5 "Essay Countermissile System"
-	turret -34 121.5 "Essay Countermissile System"
+	turret 29 -176.5 "Pollo-Guli Platform"
+	turret -29 -176.5 "Pollo-Guli Platform"
+	turret 46.5 -133.5 "Paragraph Countermissile System"
+	turret -46.5 -133.5 "Paragraph Countermissile System"
+	turret 26 -59 "Alkro-Jaqu Turret"
+	turret -26 -59 "Alkro-Jaqu Turret"
+	turret 41.5 -16 "Essay Countermissile System"
+	turret -41.5 -16 "Essay Countermissile System"
+	turret 30.5 53 "Alkro-Jaqu Turret"
+	turret -30.5 53 "Alkro-Jaqu Turret"
+	turret 51 112.5 "Essay Countermissile System"
+	turret -51 112.5 "Essay Countermissile System"
 	bay "Fighter" -41.5 -152
 	bay "Fighter" 41.5 -152
 	bay "Fighter" -46 -32.5
 	bay "Fighter" 46 -32.5
 	bay "Fighter" -67.5 104
 	bay "Fighter" 67.5 104
+	bay "Fighter" -71 115.5
+	bay "Fighter" 71 115.5
 	leak "leak" 30 50
 	leak "flame" 30 80
 	leak "big leak" 50 30
