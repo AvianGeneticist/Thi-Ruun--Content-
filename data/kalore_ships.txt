@@ -24,8 +24,8 @@ ship "Tuell-Kalore"
 	outfits
 		"Pollo-Guli Platform" 4
 		"Pollo-Guli Missile" 1000
-		"Paragraph Countermissile System" 4
-		"Pencil Rocket" 1400
+		"Essay Countermissile System" 2
+		"Pencil Rocket" 1500
 		
 		"Twin Kindrender Rack"
 		"Kindrender Missile" 2
@@ -43,18 +43,12 @@ ship "Tuell-Kalore"
 	engine 35.5 82
 	engine -14 108
 	engine 14 108
-	turret -28 28.5 "Paragraph Countermissile System"
-	turret 28 28.5 "Paragraph Countermissile System"
+	turret -28 28.5 "Pollo-Guli Platform"
+	turret 28 28.5 "Pollo-Guli Platform"
 	turret -25.5 19.5 "Pollo-Guli Platform"
 	turret 25.5 19.5 "Pollo-Guli Platform"
-	turret -21.5 7
-	turret 21.5 7
-	turret -16 -11.5 "Pollo-Guli Platform"
-	turret 16 -11.5 "Pollo-Guli Platform"
-	turret -9 -27 "Paragraph Countermissile System"
-	turret 9 -27 "Paragraph Countermissile System"
-	turret -17 62.5
-	turret 17 62.5
+	turret -21.5 7 "Essay Countermissile System"
+	turret 21.5 7 "Essay Countermissile System"
 	leak "leak" 30 50
 	leak "flame" 30 80
 	leak "big leak" 50 30
@@ -69,8 +63,8 @@ ship "Sakaar-Malue-Kalore"
 	sprite "ship/sakaar-malue-kalore"
 	thumbnail "thumbnail/sakaar-malue-kalore"
 	attributes
-		category "Heavy Freighter"
-		"cost" 29250000
+		category "Heavy Warship"
+		"cost" 32250000
 		"shields" 27500
 		"hull" 25000
 		"required crew" 139
@@ -92,8 +86,7 @@ ship "Sakaar-Malue-Kalore"
 		"Pollo-Guli Platform" 2
 		"Pollo-Guli Missile" 4000
 		"Alkro-Jaqu Turret" 4
-		"Alkro-Jaqu Magazine" 4
-		"Alkro-Jaqu Missile" 600
+		"Alkro-Jaqu Missile" 480
 		"Paragraph Countermissile System" 2
 		"Essay Countermissile System" 4
 		"Pencil Rocket" 3700
@@ -101,8 +94,8 @@ ship "Sakaar-Malue-Kalore"
 		"Quad Kindrender Rack"
 		"Twin Kindrender Rack"
 		"Kindrender Missile" 6
-		"Reservoir Storage Block"
-		"Reservoir EMP" 4
+		"Reservoir Storage Block" 2
+		"Reservoir EMP" 8
 		"Raila Rocket Rack" 5
 		"Raila Rocket" 50
 		"Shield Reconstructor (Fuse)"

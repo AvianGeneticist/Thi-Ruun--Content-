@@ -2,26 +2,26 @@ outfit "Shield Reconstructor (Fuse)"
 	plural "Shield Reconstructors (Fuse)"
 	category "Systems"
 	cost 518000
-	thumbnail "outfit/small shield"
+	thumbnail "outfit/small thi reconstructor"
 	"mass" 19
 	"outfit space" -19
-	"shield generation" .51
-	"shield energy" .61
+	"shield generation" 1.34
+	"shield energy" 1.61
 	"shield energy multiplier" 0.15
 	"shield protection" 0.05
 	"piercing protection" 0.04
-	description "The Thi'Ruun have had millenia to strengthen and diversify their shield technology, but the Reconstructor has been the backbone of their defensive ability for many of those aeons passed. Reconstructors recharge shields somewhat slowly, but rebuild the ship's shield in such a way that makes it more difficult to damage or pierce."
+	description "The Thi-Ruun have had millenia to strengthen and diversify their shield technology, but the Reconstructor has been the backbone of their defensive ability for many of those aeons passed. Reconstructors recharge shields somewhat slowly, but rebuild the ship's shield in such a way that makes it more difficult to damage or pierce."
 
 outfit "Shield Reconstructor (Primer)"
 	plural "Shield Reconstructors (Primer)"
 	category "Systems"
 	cost 1678000
-	thumbnail "outfit/medium shield"
+	thumbnail "outfit/medium thi reconstructor"
 	"mass" 63
 	"outfit space" -63
-	"shield generation" 1.62
-	"shield energy" 1.90
-	"shield energy multiplier" 0.45
+	"shield generation" 4.42
+	"shield energy" 5.31
+	"shield energy multiplier" 0.43
 	"shield protection" 0.16
 	"piercing protection" 0.12
 	description "Larger reconstructors focus more on providing better shield regeneration, but also increase the efficiency at which the improved shields are constructed."
@@ -30,15 +30,15 @@ outfit "Shield Reconstructor (Charge)"
 	plural "Shield Reconstructors (Charge)"
 	category "Systems"
 	cost 4992500
-	thumbnail "outfit/large shield"
+	thumbnail "outfit/large thi reconstructor"
 	"mass" 178
 	"outfit space" -178
-	"shield generation" 4.86
-	"shield energy" 5.67
-	"shield energy multiplier" 1.35
+	"shield generation" 13.26
+	"shield energy" 15.93
+	"shield energy multiplier" 1.25
 	"shield protection" 0.49
 	"piercing protection" 0.36
-	description "The Thi'Ruun have had millenia to strengthen and diversify their shield technology, but the Reconstructor has been the backbone of their defensive ability for many of those aeons passed. Reconstructors recharge shields somewhat slowly, but rebuild the ship's shield in such a way that makes it more difficult to damage or pierce."
+	description "The largest Thi-Ruun shield reconstructor is a behemoth of a shield generator, costing more than small ships but providing a nearly 50 percent increase to a ship's shield durability. The drawbacks are, of course, its enormous size, and the fact that it causes your shields to consume over twice the standard amount of energy."
 
 
 outfit "70-Dia Multi-Sustainer"
