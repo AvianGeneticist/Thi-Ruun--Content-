@@ -76,3 +76,48 @@ ship "Uratal Jaqael"
 	"final explode" "final explosion large"
 	description `The Kiel-Ruun died out long ago; before their home star was within the Milky Way's boundaries. However, the Thi-Ruun, being the ones who originally built the ships, still manufacture them as tribute to their creators; hence the name "Uratal", which directly translates to "Legacy" in the Thi-Ruun's native tongue.`
 	description `Kiel-Ruun ships are quite lightly armed, with only simple panic defenses. However, they play host to large sorties of defensive fighter craft, meaning a Kiel-Ruun subject to attack will quickly be screened with defensive fighters.`
+
+ship "Uratal Kelai"
+	sprite "ship/uratal kelai"
+	thumbnail "ship/uratal kelai"
+	"uncapturable"
+	attributes
+		category "Fighter"
+		"cost" 1180000
+		"shields" 1650
+		"hull" 1550
+		"mass" 94
+		"drag" 1.8
+		"heat dissipation" .9
+		"outfit space" 126
+		"weapon capacity" 45
+		"engine capacity" 12
+		"automaton" 1
+		weapon
+			"blast radius" 75
+			"shield damage" 450
+			"hull damage" 360
+			"hit force" 720
+	outfits
+		"Pollo-Guli Battery"
+		"Pollo-Guli Missile" 500
+		"Alkro-Jaqu Pod"
+		"Alkro-Jaqu Missile" 120
+		"Sentence Countermissile System"
+		"Pencil Rocket" 150
+		
+		"Power System Rack"
+		"Kindrender Missile"
+		"Reservoir EMP"
+		"Shield Reconstructor (Fuse)"
+		
+		"Reserve Compound Engines"
+	
+	engine -6.5 16.5
+	engine 6.5 16.5
+	gun -3.5 -23
+	gun 3.5 -23
+	turret 0 8
+	explode "tiny explosion" 24
+	explode "small explosion" 2
+	description `Dating back to the time of the Kiel-Ruun, this ship is a remnant of a time when the Thi-Ruun were little more than soulless automaton servants. Built around a pair of Thi-Ruun drones as pilots, these ships are exceptionally durable, even by the Thi-Ruun's standards, however they suffer somewhat in the mobility department.`
