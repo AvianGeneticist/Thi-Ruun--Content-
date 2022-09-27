@@ -56,7 +56,7 @@ outfit "Shipmaster Engine Duplex"
 outfit "Infantry Compound Thruster"
 	category "Engines"
 	"cost" 93000
-	thumbnail "outfit/tiny korath thruster"
+	thumbnail "outfit/tiny thi compound thruster"
 	"mass" 16
 	"outfit space" -14
 	"engine capacity" -8
@@ -71,7 +71,7 @@ outfit "Infantry Compound Thruster"
 outfit "Artillery Compound Thruster"
 	category "Engines"
 	"cost" 197000
-	thumbnail "outfit/small korath thruster"
+	thumbnail "outfit/small thi compound thruster"
 	"mass" 35
 	"outfit space" -32
 	"engine capacity" -18
@@ -86,7 +86,7 @@ outfit "Artillery Compound Thruster"
 outfit "Emplacement Compound Thruster"
 	category "Engines"
 	"cost" 434000
-	thumbnail "outfit/medium korath thruster"
+	thumbnail "outfit/medium thi compound thruster"
 	"mass" 70
 	"outfit space" -65
 	"engine capacity" -38
@@ -101,8 +101,8 @@ outfit "Emplacement Compound Thruster"
 outfit "Silo Compound Thruster"
 	category "Engines"
 	"cost" 890000
-	thumbnail "outfit/medium korath thruster"
-	"mass" 70
+	thumbnail "outfit/large thi compound thruster"
+	"mass" 110
 	"outfit space" -104
 	"engine capacity" -64
 	"thrust" 65.2
@@ -113,12 +113,27 @@ outfit "Silo Compound Thruster"
 	"flare sound" "plasma tiny"
 	description "Whereas most other races use large dedicated engine blocks, the Thi'Ruun instead use central management blocks in conjunction with dozens or hundreds of small propulsors located around the ship. This lightens the load on the engine block, but requires more general outfit space for all the extra infrastructure."
 
+outfit "Intercontinental Compound Thruster"
+	category "Engines"
+	"cost" 890000
+	thumbnail "outfit/huge thi compound thruster"
+	"mass" 210
+	"outfit space" -194
+	"engine capacity" -126
+	"thrust" 130.2
+	"thrusting energy" 14.6
+	"thrusting heat" 41.4
+	"flare sprite" "effect/korath flare/small"
+		"frame rate" 8
+	"flare sound" "plasma tiny"
+	description "Despite the principle of Thi-Ruun engine blocks being formed of many smaller engines, the sub-engines for an engine block of this size exceed the size of some main thrusters of other species."
+
 # Steering
 	
 outfit "Infantry Compound Steering"
 	category "Engines"
 	"cost" 82000
-	thumbnail "outfit/tiny korath steering"
+	thumbnail "outfit/tiny thi compound steering"
 	"mass" 13
 	"outfit space" -11
 	"engine capacity" -6
@@ -133,7 +148,7 @@ outfit "Infantry Compound Steering"
 outfit "Artillery Compound Steering"
 	category "Engines"
 	"cost" 184000
-	thumbnail "outfit/small korath steering"
+	thumbnail "outfit/small thi compound steering"
 	"mass" 28
 	"outfit space" -25
 	"engine capacity" -15
@@ -148,7 +163,7 @@ outfit "Artillery Compound Steering"
 outfit "Emplacement Compound Steering"
 	category "Engines"
 	"cost" 409500
-	thumbnail "outfit/medium korath steering"
+	thumbnail "outfit/medium thi compound steering"
 	"mass" 65
 	"outfit space" -57
 	"engine capacity" -35
@@ -163,7 +178,7 @@ outfit "Emplacement Compound Steering"
 outfit "Silo Compound Steering"
 	category "Engines"
 	"cost" 409500
-	thumbnail "outfit/large korath steering"
+	thumbnail "outfit/large thi compound steering"
 	"mass" 100
 	"outfit space" -92
 	"engine capacity" -57
@@ -178,7 +193,7 @@ outfit "Silo Compound Steering"
 outfit "Intercontinental Compound Steering"
 	category "Engines"
 	"cost" 830500
-	thumbnail "outfit/large korath steering"
+	thumbnail "outfit/huge thi compound steering"
 	"mass" 161
 	"outfit space" -156
 	"engine capacity" -98
