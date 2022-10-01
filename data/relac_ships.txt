@@ -1,0 +1,55 @@
+ship "Val-Lorai"
+	sprite "ship/val-lorai"
+	thumbnail "ship/val-lorai"
+	attributes
+		category "Heavy Freighter"
+		"cost" 12800000
+		"shields" 5250
+		"hull" 10750
+		"required crew" 24
+		"bunks" 40
+		"mass" 375
+		"drag" 5.8
+		"heat dissipation" .55
+		"fuel capacity" 600
+		"cargo space" 415
+		"outfit space" 385
+		"weapon capacity" 105
+		"engine capacity" 85
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"Alkro-Jaqu Turret"
+		"Alkro-Jaqu Missile" 240
+		"Paragraph Countermissile System" 2
+		"Pencil Rocket" 700
+		
+		"Twin Kindrender Rack"
+		"Power System Rack"
+		"Kindrender Missile" 3
+		"Reservoir Storage Block"
+		"Reservoir EMP" 5
+		"Hull Mold (Small)"
+		"Shield Reconstructor (Fuse)"
+		
+		"Emplacement Compound Thruster"
+		"Emplacement Compound Steering"
+		"Hyperdrive"
+		
+	engine 0 186.5
+	turret -44 29.5 "Paragraph Countermissile System"
+	turret -44.5 58.5
+	turret -44 88 "Paragraph Countermissile System"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Relac-Viule is a widespread competitor to Yurliakaeon, with their ships providing a number of niches over standard Thi-Ruun vessels. For starters, their ships are extremely fast for freighters of their size, and are built around extremely strong central spines that give them staggering hull integrity."
+	description "The Val-Lorai is their light freighter option, offering substantial cargo space with exceptional mobility. This is, however, at the cost of weapon space such as that provided by Kalore-Illoca's ships, or the flexibility of carry bays provided by Yurliakaeon's ships."

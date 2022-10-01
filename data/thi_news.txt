@@ -1,0 +1,69 @@
+news "thi tender common"
+	location
+		government "Thi-Ruun" "Kelaar-Ruun" "Sakaar-Ruun" "Talia-Ruun"
+	name
+		word
+			"Thi-Ruun Tender"
+	message
+		word
+			`"`
+		word
+			"Lifeforms are very fragile. There are very few planets capable of holding life, and making such planets habitable is an immense undertaking."
+			"Do you require assistance, human? We tenders are responsible for taking care of biological creatures, yourself included."
+			"The verdant serpents of Nul-Poqor are some of our favourite company in space. Some Shipmasters outfit rooms with life support systems just for their pets."
+			"I can't imagine that pressure suit is particularly comfortable. For that, we greatly appreciate your company."
+		word
+			`"`
+			
+news "thi captain common"
+	location
+		government "Thi-Ruun" "Kelaar-Ruun" "Sakaar-Ruun" "Talia-Ruun"
+	name
+		word
+			"Thi-Ruun Drone"
+			"Battered Drone"
+			"Thi-Ruun Shipmaster"
+	message
+		word
+			`"`
+		word
+			"Our ships are designed for the rigors of industry; should we ever be invaded again, their durability will aid in the protection of our space."
+			"There is at least one Drone inside every ship, even if the ship appears otherwise unmanned. Drone integration is easier than designing all new software."
+			"The war between the Kelaar-Ruun and Sakaar-Ruun has been going on for millenia. It seems wasteful, but is crucial to our technological development."
+			"The war between the Kelaar-Ruun and Sakaar-Ruun has been going on for millenia. It's necessary to our development, but disrupts trade routes due to fear of collateral damage."
+			"Kiel-Ruun ships lack much in the way of direct defense; they are instead reliant on escorts to protect them. We were created to pilot the defense ships."
+			"The nature of our inequal intelligence between castes means our research projects go quite slowly, but our numbers mean we often have dozens operating at once."
+			"The ships and outfits you see in our space are the results of millenia of testing, scrapping, developing, and updating designs."
+			"Be sure to stop by our life-supporting worlds. They are some of our most-beloved."
+		word
+			`"`
+		
+news "thi enforcer common"
+	location
+		government "Thi-Ruun" "Kelaar-Ruun" "Sakaar-Ruun" "Talia-Ruun"
+	name
+		word
+			"Thi-Ruun Enforcer"
+			"Battered Enforcer"
+			"Damaged Enforcer"
+	message
+		word
+			`"`
+		word
+			"Your presence as an observer is tolerated. Involving yourself in conflict is ill-advised."
+			"We do not use centralized security checkpoints; they are not necessary. If needed, we will search you ourselves."
+			"Theft of ships or their components is a punishable offense. Excess or not, every component has its place."
+			"A calm reminder to you that assaulting a Breeder, regardless of effect on target, is punishable by being deconstructed."
+			"Move along, human. We have no qualm with you."
+		word
+			`"`
+		
+news "thi environment common"
+	location
+		government "Thi-Ruun" "Kelaar-Ruun" "Sakaar-Ruun" "Talia-Ruun"
+	message
+		word
+			"A group of Thi-Ruun are having a seemingly silent conversation as they walk past you."
+			"A Tender can be seen repairing a damaged Drone, multiple other drones quickly gathering repair supplies from a nearby shop."
+			"A Tender can be seen repairing a damaged Enforcer, multiple drones quickly gathering repair supplies from a nearby shop."
+			"A Breeder is being escorted by no less than three enforcers, all of which seem to be particularly alert."

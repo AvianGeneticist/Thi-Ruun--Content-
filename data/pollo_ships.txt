@@ -1,3 +1,42 @@
+ship "Pollo-Nelu"
+	sprite "ship/pollo-nelu"
+	thumbnail "ship/pollo-nelu"
+	"uncapturable"
+	attributes
+		category "Fighter"
+		"cost" 840000
+		"shields" 1250
+		"hull" 550
+		"mass" 35
+		"drag" .9
+		"heat dissipation" .9
+		"bunks" 20
+		"outfit space" 100
+		"weapon capacity" 22
+		"engine capacity" 16
+		"automaton" 1
+		weapon
+			"blast radius" 75
+			"shield damage" 450
+			"hull damage" 360
+			"hit force" 720
+	outfits
+		"Alkro-Jaqu Pod"
+		"Alkro-Jaqu Missile" 120
+		
+		"Power System Rack"
+		"Kindrender Missile"
+		"Reservoir EMP"
+		"Shield Reconstructor (Fuse)"
+		
+		"Reserve Compound Engines"
+	
+	engine 0 11.5
+	gun 0 -29
+	explode "tiny explosion" 19
+	description "When Yurliakaeon first came onto the scene, the only fighters used in Thi-Ruun space were either for combat or point defense. Quickly, a cargo fighter was commissioned by committee, leading to the Uyiti-Kalore. However, Pollo-Talia realized that the flexibility of the carriers could be further improved by offering a cheap, lightweight fighter that could transport work crews. This compact, lightweight fighter is the result of their research."
+	description "Even though the ship is intended to have Thi-Ruun occupants, it is still built around its pilot."
+
 ship "Tarlec-Pollo"
 	sprite "ship/tarlec-pollo"
 	thumbnail "ship/tarlec-pollo"

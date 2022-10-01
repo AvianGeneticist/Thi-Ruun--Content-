@@ -4,11 +4,11 @@ ship "Yurlia-4"
 	attributes
 		category "Utility"
 		"cost" 7000000
-		"shields" 14500
-		"hull" 12000
+		"shields" 9500
+		"hull" 7500
 		"required crew" 20
 		"bunks" 40
-		"mass" 510
+		"mass" 490
 		"drag" 10.5
 		"heat dissipation" .5
 		"fuel capacity" 500
@@ -80,11 +80,11 @@ ship "Yurlia-6"
 	attributes
 		category "Utility"
 		"cost" 10000000
-		"shields" 18500
-		"hull" 15000
+		"shields" 12500
+		"hull" 10000
 		"required crew" 20
 		"bunks" 40
-		"mass" 660
+		"mass" 630
 		"drag" 14.5
 		"heat dissipation" .5
 		"fuel capacity" 500
@@ -159,12 +159,12 @@ ship "Yurlia-8"
 	thumbnail "ship/yurlia 8"
 	attributes
 		category "Utility"
-		"cost" 10000000
-		"shields" 22500
-		"hull" 18000
+		"cost" 13000000
+		"shields" 15500
+		"hull" 12500
 		"required crew" 20
 		"bunks" 40
-		"mass" 810
+		"mass" 750
 		"drag" 18.5
 		"heat dissipation" .5
 		"fuel capacity" 500

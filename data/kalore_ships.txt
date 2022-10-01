@@ -75,7 +75,7 @@ ship "Sakaar-Malue-Kalore"
 		"fuel capacity" 900
 		"cargo space" 1020
 		"outfit space" 980
-		"weapon capacity" 520
+		"weapon capacity" 415
 		"engine capacity" 205
 		weapon
 			"blast radius" 435
@@ -86,7 +86,7 @@ ship "Sakaar-Malue-Kalore"
 		"Pollo-Guli Platform" 2
 		"Pollo-Guli Missile" 4000
 		"Alkro-Jaqu Turret" 4
-		"Alkro-Jaqu Missile" 480
+		"Alkro-Jaqu Missile" 960
 		"Paragraph Countermissile System" 2
 		"Essay Countermissile System" 4
 		"Pencil Rocket" 3700

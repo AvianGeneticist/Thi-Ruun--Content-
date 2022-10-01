@@ -210,7 +210,7 @@ outfit "Yaktha Deployment Hatch"
 		"submunition" "Yaktha Swarmer" 24
 		"velocity" 8
 		"lifetime" 1
-		"reload" 40
+		"reload" 80
 		"burst reload" 5
 		"burst count" 3
 		"firing energy" 1.4

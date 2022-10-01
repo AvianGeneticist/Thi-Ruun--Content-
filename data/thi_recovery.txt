@@ -41,6 +41,19 @@ outfit "Shield Reconstructor (Charge)"
 	description "The largest Thi-Ruun shield reconstructor is a behemoth of a shield generator, costing more than small ships but providing a nearly 50 percent increase to a ship's shield durability. The drawbacks are, of course, its enormous size, and the fact that it causes your shields to consume over twice the standard amount of energy."
 
 
+outfit "Hull Mold (Small)"
+	category "Systems"
+	cost 502000
+	thumbnail "outfit/small systems core"
+	"mass" 32
+	"outfit space" -32
+	"hull repair rate" 1.34
+	"hull energy" 2.01
+	"hull heat" 2.01
+	description "Relac-Viule's ships rely on strong hulls as opposed to shields, and thus they have invested significantly into hull reparation techniques. Hull Molds work like ancient naval plastic armor, but with the additional benefit of being able to be reconstituted on the go thanks to small dispensers embedded in the ship's hull."
+	description "Because the plastic armor component must be melted and cooled to set properly, this is an exceptionally power- and cooling-hungry method of repairing hull."
+
+
 outfit "70-Dia Multi-Sustainer"
 	category "Systems"
 	cost 172000
@@ -53,4 +66,4 @@ outfit "70-Dia Multi-Sustainer"
 	"hull repair rate" 0.09
 	"hull energy" 0.12
 	"hull heat" 0.18
-	description "This tiny device is a hybrid shield and hull restoration device, designed by the Kelaar'Ruun to provide their smallest ships with a way to recover after a strenuous battle. It requires a constant feed of power to operate, but is capable of amazing things for such a small outfit."
+	description "This tiny device is a hybrid shield and hull restoration device, designed by the Kelaar-Ruun to provide their smallest ships with a way to recover after a strenuous battle. It requires a constant feed of power to operate, but is capable of amazing things for such a small outfit."
