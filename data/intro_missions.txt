@@ -4,7 +4,7 @@ mission "First Contact: Thi'Ruun"
 		government Thi'Ruun
 	on offer
 		conversation
-			`You can't help but feel uneasy as you step out into the spaceport. Immediately, a number of short, polygonal, human-shaped robots trot over to you. They eye you ponderously for a moment, then a pair of them say, in unison: "Lykata'Ruun, pel Sakata'Ruun?"`
+			`You can't help but feel uneasy as you step out into the spaceport. Immediately, a number of short, polygonal, human-shaped robots trot over to you. They eye you ponderously for a moment, then a pair of them say, in unison: "Lykata-Ruun, pel Sakata-Ruun?"`
 			choice
 				`	"I'm friendly, if that's what you're asking."`
 					goto friendly
@@ -34,7 +34,7 @@ mission "First Contact: Thi'Ruun"
 					goto journey
 						
 			label confused
-			`They seem shocked that you replied something their language, and begin speaking in their native tongue more, "Lakata'Ruun kon Thi'Ruun hann? Wou velii!" They express, seemingly delighted.`
+			`They seem shocked that you replied something their language, and begin speaking in their native tongue more, "Lakata-Ruun kon Thi-Ruun hann? Wou velii!" They express, seemingly delighted.`
 			choice
 				`	"Wait, no, I can't understand you."`
 					goto misunderstood
@@ -86,7 +86,7 @@ mission "First Contact: Thi'Ruun"
 					goto cheeky
 						
 			label journey
-			`"You are a traveller," The robots say, as if confirming a question they've had since they first saw you, "Perhaps we should explain: 'Lykata', in our tongue, means to travel. A 'Lykata'Ruun' is one who travels; hence our question," They state.`
+			`"You are a traveller," The robots say, as if confirming a question they've had since they first saw you, "Perhaps we should explain: 'Lykata', in our tongue, means to travel. A 'Lykata-Run' is one who travels; hence our question," They state.`
 			`"If you don't mind some prodding, where did you come from, traveller? Long have we searched for neighbors, but we've found few," They express.`
 			choice	
 				`	"I'm a human, from closer to the center of the galaxy."`
@@ -108,7 +108,7 @@ mission "First Contact: Thi'Ruun"
 					goto undetailed
 			
 			label undetailed
-			`	"Before you go, you should know some things: We, as a kind, are known as the Thi'Ruun," The robots state, "We, the short and polygonal ones, are Drones. You will find us particularly common. The large, four-legged ones are Enforcers; they are our landbound police. The serpentine models are Breeders; the source of new Thi'Ruun. Attacking a Breeder is punishable by disassembly. Lastly, our synthetic-fleshed models are Tenders; they are built to deal with biological creatures like yourself directly."`
+			`	"Before you go, you should know some things: We, as a kind, are known as the Thi-Ruun," The robots state, "We, the short and polygonal ones, are Drones. You will find us particularly common. The large, four-legged ones are Enforcers; they are our landbound police. The serpentine models are Breeders; the source of new Thi-Ruun. Attacking a Breeder is punishable by disassembly. Lastly, our synthetic-fleshed models are Tenders; they are built to deal with biological creatures like yourself directly."`
 			`You thank them for the information, and prepare to explore as the crowd slowly disperses.`
 				decline
 					
@@ -116,8 +116,8 @@ mission "First Contact: Thi'Ruun"
 			`They make somekind of soft noise, and a very large serpentine robot comes from the crowd, as does a bipedal robot covered in translucent, synthetic flesh. The size difference is staggering: The polygonal bipedal robots are very short, perhaps 4 feet tall at most; the taurids stand at nearly 12 feet tall, towering over you easily; the synthetic-fleshed robots are about 5 and a half feet tall; lastly, the serpentine robots are enormous, standing at nearly 20 feet tall, but their tails extending nearly a hundred feet behind them, with numerous bulges along them, as if somewhat segmented.`
 			`"We, the short ones, are Drones; you will find us very commonly, as we are the bulk of the workforce," The pair of what-you-now-know-are-drones state, "The four-legged ones are Enforcers; they are our landbound security, and act as ship defense units as well," They continue, "The fleshy models are Tenders; should you find yourself needing companionship or counselling, Tenders are equipped to accompany and soothe flesh being like yourself," They state, before finally adding, "Lastly, the serpentine models are our breeders; they are the source of new Thi'Ruun, and the most valuable among us: Attacking a Breeder is punishable by disassembly; death, in flesh being terms," They detail.`
 			`"What do you call yourselves as a kind?" You ask.`
-			`"We are called the Thi'Ruun. You may also find smaller groups of us that prefer to be known by different titles. Please be mindful of these groups," They request.`
+			`"We are called the Thi-Ruun. You may also find smaller groups of us that prefer to be known by different titles. Please be mindful of these groups," They request.`
 			`You thank them for the information, and prepare to explore as the crowd disperses.`
 				decline
 	on decline
-		log "Factions" "Thi'Ruun" `The Thi'Ruun are a race of sentient robots that inhabited the northern fringe of the galaxy. They have a robust cast system, and are extremely industrious, and are also willing to trade with outsiders.`
+		log "Factions" "Thi-Ruun" `The Thi-Ruun are a race of sentient robots that inhabit the northern fringe of the galaxy. They have a robust caste system, are extremely industrious, and are also willing to trade with outsiders.`

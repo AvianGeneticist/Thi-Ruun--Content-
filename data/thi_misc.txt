@@ -5,7 +5,7 @@ outfit "Raila Rocket"
 	"mass" 0.3
 	"raila capacity" -1
 	"heat capacity" 10
-	"cooling" 0.125
+	"cooling" 0.4
 	description "These somewhat bulky projectiles double as heat sinks, allowing a Thi-Ruun to run hotter than normal outfits. They do, however, rely on a ship's heat dissipation systems to be effective, so they are more effective on smaller or more radiative ships."
 
 outfit "Raila Rocket Rack"

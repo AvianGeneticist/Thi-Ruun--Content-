@@ -37,6 +37,64 @@ ship "Pollo-Nelu"
 	description "When Yurliakaeon first came onto the scene, the only fighters used in Thi-Ruun space were either for combat or point defense. Quickly, a cargo fighter was commissioned by committee, leading to the Uyiti-Kalore. However, Pollo-Talia realized that the flexibility of the carriers could be further improved by offering a cheap, lightweight fighter that could transport work crews. This compact, lightweight fighter is the result of their research."
 	description "Even though the ship is intended to have Thi-Ruun occupants, it is still built around its pilot."
 
+ship "Polaq-Pollo"
+	sprite "ship/polaq-pollo"
+	thumbnail "ship/polaq-pollo"
+	attributes
+		category "Space Liner"
+		cost 31690000
+		shields 28725
+		hull 17075
+		"required crew" 497
+		"bunks" 1560
+		"mass" 1815
+		"drag" 18.3
+		"heat dissipation" .42
+		"fuel capacity" 800
+		"cargo space" 85
+		"outfit space" 460
+		"weapon capacity" 115
+		"engine capacity" 165
+		weapon
+			"blast radius" 410
+			"shield damage" 7800
+			"hull damage" 3800
+			"hit force" 10500
+	outfits
+		"Inghlo Launcher"
+		"Inghlo Rocket Adapter"
+		"Inghlo Rocket" 30
+		"Alkro-Jaqu Pod"
+		"Alkro-Jaqu Missile" 120
+		"Sentence Countermissile System" 4
+		
+		"Quad Kindrender Rack"
+		"Kindrender Missile" 4
+		"Reservoir Storage Block"
+		"Reservoir EMP" 2
+		"Shield Reconstructor (Primer)"
+		
+		"Emplacement Compound Thruster"
+		"Silo Compound Steering"
+		"Hyperdrive"
+	
+	engine 61 182
+	engine -61 182
+	gun 0 -338 "Inghlo Launcher"
+	gun 0 338 "Alkro-Jaqu Pod"
+		angle 180
+	turret 3.5 -131
+	turret -3.5 -131
+	turret 4.5 131
+	turret -4.5 131
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "For the longest time, the Tarlec-Pollo was the only interstellar transport in Thi-Ruun space. However, as interstellar commerce became more demanding, many Thi-Ruun were dissatisfied at only being able to transport 2 units at a time. Thus, the Polaq-Pollo came about as a method of remedying this issue; able to transport over a thousand individuals quickly and efficiently, this ship is considered by some Thi-Ruun to be the pinnacle of their engineering prowess."
+
 ship "Tarlec-Pollo"
 	sprite "ship/tarlec-pollo"
 	thumbnail "ship/tarlec-pollo"
