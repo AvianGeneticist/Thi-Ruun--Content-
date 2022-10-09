@@ -1,7 +1,7 @@
-mission "First Contact: Thi'Ruun"
+mission "First Contact: Thi-Ruun"
 	landing
 	source
-		government Thi'Ruun
+		government Thi-Ruun
 	on offer
 		conversation
 			`You can't help but feel uneasy as you step out into the spaceport. Immediately, a number of short, polygonal, human-shaped robots trot over to you. They eye you ponderously for a moment, then a pair of them say, in unison: "Lykata-Ruun, pel Sakata-Ruun?"`
@@ -121,3 +121,58 @@ mission "First Contact: Thi'Ruun"
 				decline
 	on decline
 		log "Factions" "Thi-Ruun" `The Thi-Ruun are a race of sentient robots that inhabit the northern fringe of the galaxy. They have a robust caste system, are extremely industrious, and are also willing to trade with outsiders.`
+
+mission "First Contact: Sakaar-Ruun"
+	landing
+	source
+		government Sakaar-Ruun
+	to offer
+		has "First Contact: Thi-Ruun: declined"
+	on offer
+		conversation
+			`The Thi-Ruun here are painted with the same red colours as the ships they are loading into. Do you want to ask what's going on?`
+			choice
+				`	(Yes.)`
+					goto inquiry
+				`	(No.)`
+					defer
+					
+			label inquiry
+			`A handful of Drones step forward as you move towards the docks. One of them speaks up before you have a chance to: "Can we aid you, traveller?" It asks.`
+			choice
+				`	"What's going on here?"`
+					goto explanation
+				`	"Who are you?"`
+					goto names
+					
+			label explanation
+			`"Our ships return to our space for fuel, repairs, and rearming," The Drone states, "What you see here is the so-called 'War Machine' in its full swing: Resources come in, progress comes out," They detail.`
+			choice
+				`	"Progress?"`
+					goto progress
+				`	"Who are you warring with?"`
+					goto adversaries
+					
+			label progress
+			`	"The war provides us with valuable data in regards to our weapons' effectiveness. Should we fall behind, we will receive greater manpower for research and manufacturing, allowing us a greater rate of progression to catch up with the Kelaar-Ruun," One of the Drones explains,`
+			`	"I feel the need to bring up that our war with the Kelaar-Ruun is not based on 'hard feelings'; a fact that some flesh creatures do not understand," Another Drone states, "The Kelaar-Ruun produce defensive technologies. We produce offensive technologies. It is our hope that our war will allow us to progress at a greater pace, allowing us to rapidly test weapon designs in a realistic setting," They explain.`
+			`	"Isn't that wasteful?" You ask.`
+				goto waste
+				
+			label adversaries
+			`	"Our war is with the Kelaar-Ruun; whereas they develop defensive technologies, we develop offensive technologies to combat them," They explain, "It is an arms race of sorts, however we fight each other for the common good of all Thi-Ruun society. Raila Rockets, for example, are an invention of ours that have since graduated into use with the rest of -Ruunic society," They explain.`
+			`	"Isn't it wasteful to war solely for the sake of combat data?" You ask.`
+				goto waste
+				
+			label names
+			`	"We are the Sakaar-Ruun, or 'Those who hunt'," They introduce, "We develop aggressive ships and technologies to increase our race's abilities to repel threats, should any ever arise," They state, "We are the counterparts to the Kelaar-Ruun, who focus on the creation of defensive technologies. It is this arms race that makes our species strong, even after millenia without a significant threat," They detail.`
+			`	"Arms race? Like a war?" You ask.`
+			`	"Correct," One of the Sakaar-Ruun Drones replies simply.`
+			`	"Isn't that a wasteful way to achieve progress?"`
+				goto waste
+				
+			label waste
+			`	The Drones look at you for a moment, as if lacking the proper reaction to your question. "Our space is a relatively closed system," They explain, "Our ships, outfits, and even the crews that operate them are replaceable. To a flesh creature it may look like an unnecessary loss of life, but to us, the scale of losses here is so minor, that the research value of the combat is more valuable than the cost of the lost resources," They explain, before looking back to the dock briefly, "It seems our transport has arrived. Do not make yourself a stranger, human; work and live amongst us for long enough, and you may be permitted to duel in our name," They suppose, before heading off without another word.`
+				decline
+	on decline
+		log "Factions" "Sakaar-Ruun" `One half of the Thi-Ruun's perpetual war, the Sakaar-Ruun focus on developing hostile combat technologies like weapons. Despite their militant mindset, they are quite friendly to outsiders.`
